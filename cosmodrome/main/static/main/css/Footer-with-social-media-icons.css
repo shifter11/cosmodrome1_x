@@ -1,0 +1,38 @@
+#footerpad {
+  padding-top: 70px;
+  padding-bottom: 20px;
+  background-color: #000000;
+}
+
+a:focus, a:hover {
+  color: #0085A1;
+}
+
+@media (min-width: 768px) {
+  #price-2 {
+    margin-top: 111px;
+  }
+}
+
+@media (min-width: 768px) {
+  #price-1 {
+  }
+}
+
+.nav-link.active {
+}
+
+@media (min-width: 576px) {
+  #hero-jumb {
+    height: 150px;
+    padding-top: 26px;
+  }
+}
+
+@media (min-width: 992px) {
+  #hero-jumb {
+    height: 143px;
+    width: 514px;
+  }
+}
+

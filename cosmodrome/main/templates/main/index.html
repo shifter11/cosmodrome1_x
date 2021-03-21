@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Cosmodrome: Студия Звукозаписи</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo&amp;subset=cyrillic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Exo+2&amp;subset=cyrillic">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css">
+    <link rel="stylesheet" href="{% static "main/css/fontawesome5-overrides.min.css" %}">
+    <link rel="stylesheet" href="{% static "main/css/Footer-with-social-media-icons.css" %}">
+    <link rel="stylesheet" href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
+    <link rel="stylesheet" href="{% static "main/css/Pretty-Footer.css" %}">
+    <link rel="stylesheet" href="{% static "main/css/styles.css" %}">
+</head>
+
+<body style="color: rgb(255,255,255);background: rgb(0,0,0);">
+    <section id="hero-section">
+        <nav class="navbar navbar-light navbar-expand-md" style="color: rgb(255,255,255);background: rgba(19,23,25,0.6);">
+            <div class="container-fluid"><a class="navbar-brand" href="#" style="color: rgba(255,255,255,0.9);font-size: 20px;font-family: Aldrich, sans-serif;font-weight: bold;">COSMODROME</a><button data-toggle="collapse" class="navbar-toggler text-white" data-target="#navcol-1" style="color: rgba(255,255,255,0.5);border-width: 0PX;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon text-white" id="spann" style="color: rgba(255,255,255,0.55);border-width: 5px;border-style: solid;filter: blur(0px);border-radius: 3PX;"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link active" href="{% url 'music' %}" style="color: rgb(183,183,183);font-size: 17px;font-weight: bold;">Студия Звукозаписи</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="{% url 'film' %}" style="color: rgb(183,183,183);font-size: 17px;font-weight: bold;">Видео Продакшен</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="{% url 'contacts' %}" style="color: rgb(183,183,183);font-size: 17px;font-weight: bold;">Контакты</a></li>
+                        <li class="nav-item"></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="jumbotron" id="hero-jumb">
+            <h1 id="hero-name" style="font-family: 'Exo 2', sans-serif;font-weight: bold;font-size: 39px;margin-top: -15px;">Делаем музыку</h1>
+            <p style="font-size: 21px;font-weight: bold;font-style: italic;text-align: left;font-family: 'Exo 2', sans-serif;">С 2018</p>
+            <p></p>
+        </div>
+    </section>
+    <section id="mid-section">
+        <h1 class="text-center" style="padding-top: 20px;font-family: Aldrich, sans-serif;font-weight: bold;font-size: 37px;">COSMODROME</h1>
+    </section>
+    <div></div>
+    <div class="card-group flex-sm-column flex-md-column flex-lg-row flex-xl-row">
+        <div class="card" style="margin: 20px;"><i class="fas fa-microphone-alt d-flex justify-content-center align-items-center" style="color: rgb(255,255,255);font-size: 80px;background: #000000;padding-top: 20PX;"></i>
+            <div class="card-body" style="color: rgba(255,255,255,0.79);background: #000000;padding-bottom: 10PX;">
+                <h4 class="card-title" style="text-align: center;font-weight: BOLD;color: rgb(255,255,255);">Час Записи</h4>
+                <p class="card-text" style="font-weight: bold;font-size: 15px;margin-top: -20px;text-align: left;line-height: 24PX;font-family: Aldrich, sans-serif;"><br>Запись - почасовое накопление материала , в среднем на запись полноценного трэка требуется от двух часов. Приятное времяпровождение в творческой атмосфере с компетентными людьми , всегда готовыми подсказать и дать совет повышающий продуктивность и качество результата!<br><br></p>
+                <div style="margin-top: 0px;">
+                    <p id="price-1" style="font-family: Arimo, sans-serif;font-size: 45px;font-weight: bold;font-style: italic;color: rgb(255,255,255);">200 UAH&nbsp;</p>
+                </div>
+            </div>
+        </div>
+        <div class="card border rounded-0" style="margin: 20px;border-width: 2px;padding-left: 0px;"><i class="material-icons d-flex justify-content-center align-items-center" style="color: rgb(255,255,255);background: #000000;font-size: 80px;padding-top: 20PX;">done_all</i>
+            <div class="card-body" style="color: rgb(255,255,255);background: #000000;padding-bottom: 10px;">
+                <h4 class="card-title" style="text-align: center;">Сведение</h4>
+                <p class="card-text" style="margin-top: -20px;font-size: 15px;line-height: 24PX;font-family: Aldrich, sans-serif;font-weight: bold;color: rgba(255,255,255,0.79);text-align: left;"><br>Сведение - собирание единого целого из записанных при накоплении частиц. По идеологии, мастеринг является неповторимым почерком каждой студии, от него зависит восприятие готового трэка. Примеры нашей сноровки в сведении можете послушать во вкладке "Портфолио"<br><br></p>
+                <div>
+                    <p id="price-2" style="font-family: Arimo, sans-serif;font-size: 45px;font-weight: bold;font-style: italic;">300+ UAH&nbsp;</p>
+                </div>
+            </div>
+        </div>
+        <div class="card border rounded-0" style="background: rgb(0,0,0);margin: 20px;border-width: 2px;border-color: rgb(255,255,255);"><i class="fa fa-briefcase d-flex justify-content-center align-items-center" style="font-size: 75px;padding-top: 20px;"></i>
+            <div class="card-body" style="padding-bottom: 10px;">
+                <h4 class="card-title" style="text-align: center;color: rgb(255,255,255);">Продюссеринг</h4>
+                <p class="card-text" style="margin-top: -40px;font-size: 15px;line-height: 24px;font-family: Aldrich, sans-serif;font-weight: bold;color: rgba(255,255,255,0.79);"><br><br>Множество успешных проектов музыкальных и не только были порождены нашим коллективным сознанием.<br>Мы готовы придумать или помочь додумать и красиво реализовать любой ваш замысел! Написать песню/трэк , создать бит по вашей идее, снять видео / клип любого формата. Связывайтесь с нами , обязательно найдем общий язык!<br><br></p>
+                <div>
+                    <p id="price-3" style="font-family: Arimo, sans-serif;font-size: 45px;font-weight: bold;font-style: italic;">1000 UAH&nbsp;</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <section class="d-lg-flex justify-content-lg-center">
+        <p class="text-center" style="text-align: center;font-family: Aldrich, sans-serif;font-weight: bold;color: rgba(255,255,255,0.67);background: url(&quot;/static/main/img/silvestre-leon-9WBkZaxOBEg-unsplash.jpg&quot;) top;border-radius: 20px;margin: 15px;max-width: 800px;"><br>Не была бы эта
+            студия  звукозаписи столь знаменательным и важным для творческих ребят явлением если бы не все те монументальные проекты , несущиеся за плечами этого на первый взгляд не примечательного гаража.<br><br></p>
+    </section>
+    <footer style="background: rgb(0,0,0);">
+        <h3 style="font-family: Aldrich, sans-serif;font-size: 20PX;font-weight: BOLD;margin-top: -50px;">COSMODROME</h3>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 footer-contacts">
+                <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+                    <p><span class="new-line-span">Печерский Район</span>КИЕВ</p>
+                </div>
+                <div><i class="fa fa-phone footer-contacts-icon"></i>
+                    <p class="footer-center-info email text-left">+380958665874</p>
+                </div>
+                <div><i class="fa fa-envelope footer-contacts-icon"></i>
+                    <p> <a href="#" target="_blank">dimatetrisraketa@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col">
+                <div></div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
+</body>
+
+</html>

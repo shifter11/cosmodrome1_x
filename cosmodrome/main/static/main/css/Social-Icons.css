@@ -1,0 +1,115 @@
+.social-icons {
+  color: #313437;
+  background-color: #fff;
+  text-align: center;
+  padding: 70px 0;
+}
+
+@media (max-width:767px) {
+  .social-icons {
+    padding: 50px 0;
+  }
+}
+
+.social-icons i {
+  font-size: 45px;
+  display: inline-block;
+  color: #f5f9ff;
+  margin: 0 10px;
+  width: 60px;
+  height: 60px;
+  text-align: center;
+  border-radius: 50%;
+  line-height: 60px;
+  margin-right: 17px;
+  margin-left: 17px;
+  border: 0px solid #c8ced7 ;
+  border-bottom-width: 1px;
+  border-bottom-color: rgba(200,206,215,0.98);
+  margin-top: 4px;
+}
+
+p {
+  color: rgb(255,255,255);
+  font-size: 25px;
+  font-weight: bold;
+  text-align: center;
+  border-radius: 0px;
+  border: 3px solid rgb(255,255,255) ;
+  border-top-width: 0px;
+  border-right-width: 0px;
+  border-bottom-width: 3px;
+  border-bottom-color: rgb(255,255,255);
+  border-left-width: 0px;
+  font-family: Arimo, sans-serif;
+  min-width: 298px;
+  margin-top: -10px;
+  margin-bottom: 8px;
+}
+
+#info_par {
+  margin: -11px 0px 10px;
+  margin-top: 4px;
+  border-width: 0px;
+  font-size: 20px;
+  min-width: 360px;
+}
+
+#phone_number {
+  border-radius: 36px;
+  font-size: 28px;
+  border-width: 0px;
+  padding-top: 8px;
+}
+
+#contact_info_section {
+  margin-top: 27px;
+}
+
+#form_info_section {
+  margin-top: 30px;
+}
+
+#form_Info_par {
+  border-width: 0px;
+  font-size: 18px;
+  margin-top: -15px;
+  padding-top: 0px;
+}
+
+#date_help_par {
+  border-width: 0px;
+  font-size: 12px;
+  text-align: left;
+  margin-right: 0px;
+  padding-right: 34px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-left: 0px;
+  margin-bottom: 3px;
+}
+
+#input_itemc {
+}
+
+#input_itemc {
+  width: 304px;
+  color: rgb(0,0,0);
+  border-radius: 13px;
+  background: rgb(255, 255, 255);
+  margin-top: 13px;
+}
+
+#form_section {
+  text-align: center;
+  width: 317px;
+  height: 339px;
+  border-radius: 23px;
+  border-style: solid;
+  border-color: rgba(77,71,71,0);
+}
+
+#form_item_date {
+  margin-top: 26px;
+}
+

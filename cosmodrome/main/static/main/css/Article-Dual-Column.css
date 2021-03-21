@@ -1,0 +1,304 @@
+.article-dual-column {
+  color: #56585b;
+  background-color: #fff;
+  font-family: 'Lora', serif;
+  font-size: 14px;
+}
+
+.article-dual-column .intro {
+  font-size: 16px;
+  margin: 0 auto 30px;
+}
+
+.article-dual-column .intro h1 {
+  font-size: 32px;
+  margin-bottom: 15px;
+  padding-top: 20px;
+  line-height: 1.5;
+  color: inherit;
+  margin-top: 25px;
+}
+
+.article-dual-column .intro p {
+  color: #929292;
+  font-size: 12px;
+}
+
+.article-dual-column .intro p .by {
+  font-style: italic;
+}
+
+.article-dual-column .intro p .date {
+  text-transform: uppercase;
+  padding: 4px 0 4px 10px;
+  margin-left: 10px;
+  border-left: 1px solid #ddd;
+}
+
+.article-dual-column .intro p a {
+  color: #333;
+  text-transform: uppercase;
+  padding-left: 3px;
+}
+
+.article-dual-column .intro img {
+  margin-top: 25px;
+}
+
+.article-dual-column .text p {
+  margin-bottom: 20px;
+  line-height: 1.45;
+}
+
+@media (min-width:768px) {
+  .article-dual-column .text p {
+    font-size: 16px;
+  }
+}
+
+.article-dual-column .text h2 {
+  margin-top: 28px;
+  margin-bottom: 20px;
+  line-height: 1.45;
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+}
+
+@media (min-width:768px) {
+  .article-dual-column .text h2 {
+    font-size: 20px;
+  }
+}
+
+.article-dual-column .text figure {
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.article-dual-column .text figure img {
+  margin-bottom: 12px;
+  max-width: 100%;
+}
+
+@media (max-width:767px) {
+  .article-dual-column .toc {
+    border: 1px solid #d3d3d3;
+    padding: 20px 0 15px;
+    margin-bottom: 20px;
+    border-width: 1px 0;
+  }
+}
+
+.article-dual-column .toc p {
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.article-dual-column .toc ul {
+  padding-left: 20px;
+  font-size: 13px;
+  margin-bottom: 0;
+}
+
+.article-dual-column .toc li {
+  padding: 2px 0;
+}
+
+.article-dual-column .toc a {
+  color: inherit;
+}
+
+#jumbtechno {
+  margin: 23px;
+  height: 264px;
+  width: 307px;
+}
+
+#list-item {
+  padding-right: 0px;
+  padding-bottom: 0px;
+  margin-right: 0px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+#col-div {
+  margin: 10px;
+  height: 416px;
+  padding-top: 0px;
+}
+
+#product-jumbs {
+  margin: 22px;
+  width: 305px;
+  height: 274px;
+}
+
+#product-name {
+  font-weight: bold;
+  color: rgb(255,255,255);
+  text-align: center;
+  font-family: Lora, serif;
+  margin-top: 55px;
+}
+
+@media (min-width: 576px) {
+  #product-jumbs {
+    margin-right: 0px;
+    width: 80%;
+    padding-top: 46px;
+  }
+}
+
+@media (min-width: 576px) {
+  #proposes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 4px;
+    margin-top: 43px;
+  }
+}
+
+@media (min-width: 576px) {
+  #col-div {
+    height: 319px;
+  }
+}
+
+#row-top {
+  padding-top: 23px;
+}
+
+@media (min-width: 576px) {
+  #text-section {
+  }
+}
+
+@media (min-width: 768px) {
+  #col-div {
+    height: 366px;
+    padding-top: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  #product-jumbs {
+    width: 342.6px;
+    height: 187px;
+    border-width: 0px;
+    border-color: rgb(255,255,255);
+  }
+}
+
+@media (min-width: 768px) {
+  #all-in-section {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+}
+
+@media (min-width: 768px) {
+  #product-name {
+    margin-top: 6px;
+  }
+}
+
+@media (min-width: 768px) {
+  #row-top {
+    height: 412px;
+    margin-top: 137px;
+  }
+}
+
+#proposes-name {
+  color: rgb(255,255,255);
+  font-weight: bold;
+  font-size: 19px;
+  font-family: Arimo, sans-serif;
+  text-align: center;
+  padding: 0px;
+  margin-top: 28px;
+}
+
+@media (min-width: 1200px) {
+  #col-div {
+    height: 268px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #row-top {
+    margin-top: 252px;
+    margin-left: 8px;
+  }
+}
+
+@media (min-width: 992px) {
+  #col-div {
+    height: 317px;
+  }
+}
+
+@media (min-width: 992px) {
+  #row-top {
+    margin-top: 235px;
+    margin-left: 8px;
+  }
+}
+
+@media (min-width: 576px) {
+  #proposes-name {
+    margin-top: -12px;
+    margin-bottom: 9px;
+  }
+}
+
+#hero-jumb {
+  width: 293px;
+  height: 174px;
+  margin-top: 51px;
+}
+
+#hero-name {
+  width: 196px;
+  height: 79px;
+  margin-top: -9px;
+}
+
+@media (min-width: 576px) {
+  #hero-name {
+    margin-top: -29px;
+  }
+}
+
+@media (min-width: 576px) {
+  #hero-jumb {
+    height: 171px;
+    width: 305px;
+  }
+}
+
+@media (min-width: 768px) {
+  #hero-jumb {
+    width: 340px;
+  }
+}
+
+@media (min-width: 992px) {
+  #hero-jumb {
+    height: 160px;
+    width: 442px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #hero-jumb {
+    width: 528px;
+    margin-top: 67px;
+  }
+}
+

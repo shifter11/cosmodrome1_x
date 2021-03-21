@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>contact_us_studio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo&amp;subset=cyrillic">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+    <link rel="stylesheet" href="{% static "main/css/fontawesome5-overrides1.min.css" %}">
+    <link rel="stylesheet" href="{% static "main/css/Contact-form-simple.css" %}">
+    <link rel="stylesheet" href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
+    <link rel="stylesheet" href="{% static "main/css/Social-Icons.css" %}">
+    <link rel="stylesheet" href="{% static "main/css/styles2.css" %}">
+</head>
+
+<body style="background: url(&quot;/static/main/img/nightsky.jpg&quot;);width: 100%;height: 150vh;">
+    <nav class="navbar navbar-light navbar-expand-md" style="color: rgb(255,255,255);background: rgba(19,23,25,0.6);">
+        <div class="container-fluid"><a class="navbar-brand" href="#" style="color: rgba(255,255,255,0.9);font-size: 20px;font-family: Aldrich, sans-serif;font-weight: bold;">COSMODROME</a><button data-toggle="collapse" class="navbar-toggler text-white" data-target="#navcol-1" style="color: rgba(255,255,255,0.5);border-width: 0PX;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon text-white" id="spann" style="color: rgba(255,255,255,0.55);border-width: 5px;border-style: solid;filter: blur(0px);border-radius: 3PX;"></span></button>
+            <div class="collapse navbar-collapse" id="navcol-1">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link active" href="{% url 'music' %}" style="color: rgb(183,183,183);font-size: 17px;font-weight: bold;">Студия Звукозаписи</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="{% url 'film' %}" style="color: rgb(183,183,183);font-size: 17px;font-weight: bold;">Видео Продакшен</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="{% url 'contacts' %}" style="color: rgb(183,183,183);font-size: 17px;font-weight: bold;">Контакты</a></li>
+                    <li class="nav-item"></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="socialmedia" style="margin-top: 6px;">
+        <div class="d-flex flex-column align-items-center social-icons" style="background: rgba(255,255,255,0);">
+            <div class="d-flex justify-content-center align-items-center align-content-center">
+                <p id="name">Мы в социальных сетях</p>
+            </div>
+            <div class="d-flex flex-row"><a href="https://t.me/joinchat/SrPi2ge-c1GDwXjN"><i class="fab fa-telegram-plane" id="social_icon" style="border-radius: 0px;border-width: 0px;"></i></a><a href="https://vk.com/cosmodromeukraine"><i class="fa fa-vk" id="social_icon" style="border-bottom-width: 0px;"></i></a><a href="https://www.instagram.com/cosmodrome.xyz"><i class="icon ion-social-instagram" id="social_icon" style="border-width: 0px;"></i></a></div>
+        </div>
+    </section>
+    <section id="contact_info_section" style="height: 109px;">
+        <p id="up_number_text">Вы можете связаться с нами по этому номеру</p>
+        <p id="phone_number">+380 (95) 866 58 74&nbsp;</p>
+    </section>
+    <section id="form_info_section" style="height: 62px;margin-top: 84px;">
+        <p id="down_number_text" style="border-style: none;">Или заполните форму ниже и мы сами вам перезвоним!</p>
+    </section>
+    <section class="d-flex justify-content-center align-items-center" id="form" style="height: 336px;">
+        <section id="form_section">
+            <form class="d-flex flex-column justify-content-center align-items-center" id="form" data-bss-subject="Влет в Космодром " data-bss-recipient="bcb0aef02be58a153559f8f718a8f382">
+                <div class="form-group" id="form_item" style="padding-top: 0px;padding-bottom: 0px;">
+                    <p id="form_text">Имя</p><input class="form-control" type="text" id="input_itemc" placeholder="Имя" required="">
+                </div>
+                <div class="form-group" id="form_item">
+                    <p id="form_text" style="margin-bottom: 0px;padding-top: 0px;padding-right: 0px;padding-bottom: 0px;margin-top: 0px;">Контактный Номер</p><input class="bg-white form-control" type="text" id="input_itemc" placeholder="Контактный номер" inputmode="tel" required="">
+                </div>
+                <div class="form-group" id="form_item">
+                    <p id="form_text">Дата Записи</p><input class="form-control" type="date" style="border-radius: 13px;" name="Дата">
+                </div>
+                <div class="form-group" id="form_item">
+                    <p id="form_text">Сообщение&nbsp;</p><input class="form-control form-control-lg" type="text" id="input_itemc" style="height: 128px;" name="Сообщение" autocomplete="off" placeholder="Ваше Сообщение">
+                </div><button class="btn btn-secondary" type="submit" style="background: rgba(0,0,0,0);border-radius: 14%;border-width: 4px;border-color: rgb(255,255,255);font-family: Arimo, sans-serif;font-weight: bold;font-size: 18px;">Готово</button>
+            </form>
+        </section>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+    <script src="{% static "main/js/smart-forms.min.js" %}"></script>
+    <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
+</body>
+
+</html>

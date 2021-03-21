@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Cosmodrome: Видео-Продакшен</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Aldrich">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arimo&amp;subset=cyrillic">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Cookie">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="{% static "main/css/Article-Dual-Column.css" %}">
+    <link rel="stylesheet" href="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.css">
+    <link rel="stylesheet" href="{% static "main/css/Pretty-Footer.css" %}">
+    <link rel="stylesheet" href="{% static "main/css/styles.css" %}">
+    <link rel="stylesheet" href="{% static "main/css/Swiper-Slider-Card-For-Blog-Or-Product-1.css" %}">
+    <link rel="stylesheet" href="{% static "main/css/Swiper-Slider-Card-For-Blog-Or-Product.css" %}">
+</head>
+
+<body style="background: url(&quot;/static/main/img/nightsky.jpg&quot;), rgb(0,0,0);filter: blur(0px) hue-rotate(0deg);">
+    <section id="hero-section" style="background: url(&quot;/static/main/img/jakob-owens-B4f_Kx5jvpg-unsplash%20(1)%20(1).jpg&quot;) center / cover;height: 369px;">
+        <nav class="navbar navbar-light navbar-expand-md" style="color: rgb(255,255,255);background: rgba(19,23,25,0.6);">
+            <div class="container-fluid"><a class="navbar-brand" href="#" style="color: rgba(255,255,255,0.9);font-size: 20px;font-family: Aldrich, sans-serif;font-weight: bold;">COSMODROME</a><button data-toggle="collapse" class="navbar-toggler text-white" data-target="#navcol-1" style="color: rgba(255,255,255,0.5);border-width: 0PX;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon text-white" id="spann" style="color: rgba(255,255,255,0.55);border-width: 5px;border-style: solid;filter: blur(0px);border-radius: 3PX;"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1">
+                    <ul class="navbar-nav">
+                        <li class="nav-item"><a class="nav-link active" href="{% url 'music' %}" style="color: rgb(183,183,183);font-size: 17px;font-weight: bold;">Студия Звукозаписи</a></li>
+                        <li class="nav-item"><a class="nav-link active" href="{% url 'film' %}" style="color: rgb(183,183,183);font-size: 17px;font-weight: bold;">Видео Продакшен</a></li>
+                        <li class="nav-item"></li>
+                        <li class="nav-item"><a class="nav-link active" href="{% url 'contacts' %}" style="color: rgb(183,183,183);font-size: 17px;font-weight: bold;">Контакты</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="jumbotron" id="hero-jumb" style="background: rgba(28,32,35,0.67);color: rgb(255,255,255);">
+            <h1 id="hero-name" style="font-family: 'Exo 2', sans-serif;font-weight: bold;font-size: 35px;">Видео Продакшен</h1>
+            <p style="font-size: 18px;font-weight: bold;font-style: italic;text-align: left;font-family: 'Exo 2', sans-serif;padding-top: 0px;">Музыкальные клипы</p>
+            <p></p>
+        </div>
+    </section>
+    <section class="d-xl-flex justify-content-xl-center" id="all-in-section">
+        <section id="text-section">
+            <div>
+                <div class="container">
+                    <div class="row" id="row-top">
+                        <div class="col" id="col-div" style="border: 0px solid rgb(255,255,255);border-left-width: 3px;border-left-color: rgba(255,255,255,0.67);">
+                            <p style="color: rgb(255,255,255);font-size: 17px;font-family: Arimo, sans-serif;font-weight: bold;margin: 4px 0px -35px;margin-bottom: -40px;margin-right: 0px;margin-top: 5px;">Снимаем по вашему сценарию или пишем сценарии сами.<br><br></p>
+                            <p style="color: rgb(255,255,255);font-size: 17px;font-family: Arimo, sans-serif;font-weight: bold;margin-top: 5px;"><br>С энтузиазмом возьмемся за любой труд.<br><br></p>
+                            <p style="color: rgb(255,255,255);margin-top: -49px;font-size: 17px;font-family: Arimo, sans-serif;font-weight: bold;"><br>Владеем монтажом на высоком уровне, а творческому полёту нет грани.<br><br></p>
+                            <p style="color: rgb(255,255,255);font-size: 17px;font-weight: bold;margin-top: -22px;">При создании видеороликов мы используем следующие технологии:</p>
+                            <ul style="margin-right: 0px;padding-right: 0px;padding-bottom: 0px;margin-left: -21px;color: rgb(255,255,255);">
+                                <li id="list-item">Adobe Premier PRO</li>
+                                <li id="list-item">Adobe After Effects</li>
+                                <li id="list-item">ChromaKey 2D/3D</li>
+                                <li id="list-item">Autodesk 3ds Max</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="d-flex flex-column justify-content-center" id="proposes">
+            <div class="jumbotron" id="product-jumbs" style="background: url(&quot;/static/main/img/austin-prock-Hz3Kjzgyv_Q-unsplash.jpg&quot;) right / cover;">
+                <h1 id="product-name">Музыкальные Клипы&nbsp;</h1>
+            </div>
+            <div class="jumbotron" id="product-jumbs" style="background: url(&quot;/static/main/img/isi-parente-uNWNFSgUa1c-unsplash%20(1).jpg&quot;);background-size: cover;">
+                <h1 id="product-name">Коммерческие ролики</h1>
+            </div>
+            <div class="jumbotron" id="product-jumbs" style="background: url(&quot;/static/main/img/microjumb.jpg&quot;);background-size: cover;">
+                <h1 id="product-name">Подкасты</h1>
+            </div>
+        </section>
+    </section>
+    <footer style="background: rgb(0,0,0);">
+        <h3 style="font-family: Aldrich, sans-serif;font-size: 20PX;font-weight: BOLD;margin-top: -50px;">COSMODROME</h3>
+        <div class="row">
+            <div class="col-sm-6 col-md-4 footer-contacts">
+                <div><span class="fa fa-map-marker footer-contacts-icon"> </span>
+                    <p><span class="new-line-span">Печерский Район</span>КИЕВ</p>
+                </div>
+                <div><i class="fa fa-phone footer-contacts-icon"></i>
+                    <p class="footer-center-info email text-left"> +380958665874</p>
+                </div>
+                <div class="d-flex align-items-center flex-nowrap" style="width: 271px;"><i class="fa fa-envelope footer-contacts-icon"></i>
+                    <p> <a href="#" target="_blank">dimatetrisraketa@gmail.com</a></p>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="col">
+                <div></div>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/@bootstrapstudio/bootstrap-better-nav/dist/bootstrap-better-nav.min.js"></script>
+    <script src="assets/js/Swiper-Slider-Card-For-Blog-Or-Product.js"></script>
+</body>
+
+</html>

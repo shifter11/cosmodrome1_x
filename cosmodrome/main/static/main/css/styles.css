@@ -1,0 +1,88 @@
+#hero-section {
+  width: 100%;
+  height: 369px;
+  background: url("/static/main/img/silvestre-leon-9WBkZaxOBEg-unsplash.jpg") no-repeat, #0a0a0a;
+  color: rgb(255,255,255);
+  background-size: cover, auto;
+}
+
+#spann {
+  color: white;
+}
+
+#hero-jumb {
+  width: 255px;
+  margin-top: 64px;
+  background: rgba(54,58,62,0.7);
+  height: 170px;
+}
+
+#footer-section {
+  height: 30vh;
+}
+
+#footer {
+}
+
+@media (min-width: 768px) {
+  #hero-jumb {
+    width: 55%;
+    height: 149px;
+    margin-left: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card-group {
+    height: -16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .card {
+  }
+}
+
+@media (min-width: 1200px) {
+  #hero-jumb {
+    width: 594px;
+    height: 135px;
+    margin-top: 53px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  h1 {
+    margin-bottom: 5px;
+    margin-top: 0px;
+    padding-top: 0px;
+    padding-right: 0px;
+    font-size: 44px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+  #price-1 {
+    margin-top: 63px;
+    font-family: Aldrich, sans-serif;
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  #price-2 {
+    margin-top: 87px;
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #price-2 {
+    margin-top: 63px;
+  }
+}
+
